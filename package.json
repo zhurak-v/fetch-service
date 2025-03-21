@@ -1,0 +1,17 @@
+{
+  "name": "fetch-service",
+  "version": "1.0.0",
+  "description": "Lightweight Fetch API wrapper with AbortController support.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node build/examples/index.js"
+  },
+  "keywords": [],
+  "author": "zhurak-v",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "typescript": "^5.8.2"
+  }
+}
